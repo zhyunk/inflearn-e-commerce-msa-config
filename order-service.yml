@@ -3,5 +3,5 @@ spring:
     url: jdbc:h2:./h2/order;AUTO_SERVER=TRUE;mode=MYSQL;
     driverClassName: org.h2.Driver
     username: sa
-    password: '{cipher}a4877b985cd3e8351fa1982788a677a0fc71f71c44fa2d4459af7c105893b494'
+    password: '{cipher}AYAcQwnHdhmVzTJaYsuaXWzHFKQ0gaUTMI5i7a3d27tRtwk3hd8sM2klhrAKNctxOejefKW/CZv7r/coNJXjrw0YuPRFiTqOUwnObjf3qCfCCi0OMUdhtCEVZ7EcCz4i8R2Gkemd2LwdgpANUJzFy0mi8+t0ED1dkW9XQP4umqrHqar4OZhvQWHMueYTRDmoxE/f/w4tsuYkFT6eTuj/R5O/ap9FyuHLSpqAbpQUiRYxZPHRlgc/xnDgTvRvbg0UCiQ0fOnVUqE+rlKCJ8pC9IQciVC3hacnOOsZDZwHImcrkitb5zgnubSxMz0M3uvDyk2uMM8NC40Kg5FBhv/Gce2LFq3GCRvLL4NoZnNvPtitoXWGl9yrKn78nFqQq0tHQh+/WmPovOymBgbOcK3Oot5dPHvuzXxT9kM4OVezPNEf+LJcdhYWHo0KlMXkodFCsH1MoqwApC+Ic2nqd5aNH9ReLL6mmJ7x/meNNniXtPcxcEZHlcbXtWaqcjgVHN0PNC2DdKC8/3ROAkv2DwWdWHoJBU7jUac2bl/xSuO2xezH5w=='
 

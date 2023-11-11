@@ -3,7 +3,7 @@ spring:
     url: jdbc:h2:./h2/user;AUTO_SERVER=TRUE;mode=MYSQL;
     driverClassName: org.h2.Driver
     username: sa
-    password: '{cipher}eef6520d493e86d1de8eacf8c53c3519a1caaff223053df5f216eb31dd795c7f'
+    password: '{cipher}AYBYdChd8uttsCeEOe3hxeaemhN9sAarWjQVdR61w08PGvSfcGC3/SzKqCYlti7jXGON8WlVDV6kzQ0XyQCsLaL51K6TOG8L4pSq3hu7L9H92yXszu48f0YoEHnvPILUKzMQxw9SwITCiNGeQjnWL8mG5jGFhinmGGvxY9Q08MM2+1fv0ZmN0S2N/smdmPDoqBmsDVcfFyZ5pbljyhh80hi85lMHbbNj4Vw2GCcSwBhhXTd1w1xJyMBG5g6yeia+pTsI91c/q2BjNiFkyA/ResPUO2318rx/qyjMGM4CNz1cm/17eLrhXqS7tXEuLqyW8Re7TNWF2H38Lx2n1HGehjERvgN0RbXlhv4miWU4qFOVajjFDZkzDE9154R1atDgr96H/cl3pJX7qTGZqkYni72quadLpmxVAaD98xr4hl1TMrRV9RSjvEUxPuAJQhVn0w4TFbB4AnJH7bHdW5vdJLCxqSpQ9rgABzaCSv5R2tTXWUzVs5FI0HFJbcuFQzBHotP7g9Nhe9+QhubUDO0fl6D47rEwzfWllL0OviEFwmPPjw=='
 
 
 token:
