@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:h2:./h2/user;AUTO_SERVER=TRUE;mode=MYSQL;
+    driverClassName: org.h2.Driver
+    username: sa
+    password: '{cipher}eef6520d493e86d1de8eacf8c53c3519a1caaff223053df5f216eb31dd795c7f'
+
+
+token:
+  expiration_time: 86400000 # 1일
+  secret: user_token_native_test_10_qpwoeirutyzmxncbvlaksjdhfg_pkngrdxxxxxaqwazxcmnbvasdlkjsdfkjhdfgpoiqweoiuweriuyertkjhsdfiuyrewtjhgdcvboiuyasdmnbcvbxlkjzxoiuqewbvjh
+
+gateway:
+   ip: 192.168.219.103

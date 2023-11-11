@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:h2:./h2/order;AUTO_SERVER=TRUE;mode=MYSQL;
+    driverClassName: org.h2.Driver
+    username: sa
+    password: '{cipher}a4877b985cd3e8351fa1982788a677a0fc71f71c44fa2d4459af7c105893b494'
+
