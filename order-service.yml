@@ -1,8 +1,35 @@
 spring:
   datasource:
+#    H2 설정
 #    url: jdbc:h2:./h2/order;AUTO_SERVER=TRUE;mode=MYSQL;
-    url: jdbc:h2:mem:order;mode=MYSQL;
-    driverClassName: org.h2.Driver
-    username: sa
-    password: '{cipher}AYAcQwnHdhmVzTJaYsuaXWzHFKQ0gaUTMI5i7a3d27tRtwk3hd8sM2klhrAKNctxOejefKW/CZv7r/coNJXjrw0YuPRFiTqOUwnObjf3qCfCCi0OMUdhtCEVZ7EcCz4i8R2Gkemd2LwdgpANUJzFy0mi8+t0ED1dkW9XQP4umqrHqar4OZhvQWHMueYTRDmoxE/f/w4tsuYkFT6eTuj/R5O/ap9FyuHLSpqAbpQUiRYxZPHRlgc/xnDgTvRvbg0UCiQ0fOnVUqE+rlKCJ8pC9IQciVC3hacnOOsZDZwHImcrkitb5zgnubSxMz0M3uvDyk2uMM8NC40Kg5FBhv/Gce2LFq3GCRvLL4NoZnNvPtitoXWGl9yrKn78nFqQq0tHQh+/WmPovOymBgbOcK3Oot5dPHvuzXxT9kM4OVezPNEf+LJcdhYWHo0KlMXkodFCsH1MoqwApC+Ic2nqd5aNH9ReLL6mmJ7x/meNNniXtPcxcEZHlcbXtWaqcjgVHN0PNC2DdKC8/3ROAkv2DwWdWHoJBU7jUac2bl/xSuO2xezH5w=='
+#    url: jdbc:h2:mem:order;mode=MYSQL;
+#    driverClassName: org.h2.Driver
+#    username: sa
 
+#    MariaDB 설정
+    url: jdbc:mariadb://localhost:3307/mydb
+    driverClassName: org.mariadb.jdbc.Driver
+    username: zhyun
+    password: '{cipher}AYBS7nknErbVH/l+Nurno2aGSGbznkkb7+CaI+xjhwjx+JA1J03i1A74wVFD114VFAGjB3a/4eA2VoERT5mHPGqbVKSq8D7pElzSfHNmLbao1pj+zsYR9rWMDMGnpK7obj013MvPwr66+IH9CtKqQxFUOvbnyUlRd1LBqsyCWNCD3ApNfSIAZ0Bl37rXNfD09/wTqqCEWZKlQEIoHSDufiIYSfNFqo02zYJT9kownjw9bexsumI16sahdYJdB9L8vF/y3YVUp+xflgH/kfM3/v3DIyx9LokkpjhEsx8xmJbALB6e+mLF5ynyVfCNu2GldDsI69qdJRSSaxO9wX5vTak5z7tYcdoJbzbeoMbsLzWUZJah8xafLyJMxcaJmqDtXAy8q9hBJXcE6OoAttx6DWau5murh5PPJO4AwlHvf2exIkFPfi21+NnYUGW2YScdGTuACalxs0l60y0iBTAvp6of/2d5KfBf/kqdisMXQ488w5UddeObR5EiKBrccPuQxvNVjdThodjnb6rPBRk4+N/tbCo6AFOGqytWPVpEG06VXw=='
+
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true # 외부 접속 허용
+      path: /h2-console
+
+#  sql:
+#    init:
+#      mode: always
+
+  jpa:
+#    defer-datasource-initialization: true
+#    database-platform: H2
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
